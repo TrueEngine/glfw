@@ -2,7 +2,9 @@
 build
 
 # Visual Studio clutter
+.DS_Store
 _ReSharper*
+*.opensdf
 *.sdf
 *.suo
 *.dir
@@ -99,3 +101,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+# TrueEngine-specific
+bin
+bin-int
